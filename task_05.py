@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Task 5 BP."""
 
-BLOODP = raw_input('What is your blood pressure reading? ')
+BLOODP = raw_input('What is your blood pressure reading?')
 
 BLOODP = int(BLOODP)
 
@@ -16,10 +16,10 @@ elif BLOODP <= 139:
     BP_STATUS = 'Warning!'
 
 elif BLOODP <= 159:
-    BP_STATUS = 'high!'
+    BP_STATUS = 'High!'
 
 else:
     BP_STATUS = 'Emergency!'
 
-BPRESULT = 'Your status is currently: {}'.format(BP_STATUS)
-print BPRESULT
+BP_STATUS = 'Your status is currently {}'.format(BP_STATUS)
+print BP_STATUS
