@@ -16,9 +16,9 @@ elif BLOODP <= 139:
     BP_STATUS = 'Warning!'
 
 elif BLOODP <= 159:
-    BP_STATUS = 'High!!'
+    BP_STATUS = 'High!'
 
 else:
-    BP_STATUS = 'Emergency!!!'
+    BP_STATUS = 'Emergency!'
 
 print 'Your status is currently:{}'.format(BP_STATUS)
