@@ -3,7 +3,7 @@
 """Using raw_input and if, else statements"""
 
 
-BP = int(raw_input('What is your blood pressure? '))
+BP = (int(raw_input('What is your blood pressure? ')))
 
 if BP <= 89:
     BP_STATUS = 'Low'
@@ -19,6 +19,5 @@ elif BP is 140 and BP <= 159:
 
 elif BP >= 160:
     BP_STATUS = 'Emergency'
-    
-NOTIFY = 'Your status is currently: {}'
-print NOTIFY.format(BP_STATUS)
+
+NOTIFY = 'Your status is currently: {}'.format(BP_STATUS)
