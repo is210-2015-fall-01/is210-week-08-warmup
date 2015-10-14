@@ -20,6 +20,5 @@ elif BP is 140 and BP <= 159:
 elif BP >= 160:
     BP_STATUS = 'Emergency'
 
-NOTIFY = 'Your status is currently:{}'
-NOTIFY = NOTIFY.format(BP_STATUS)
-print NOTIFY
+BP_STATUS = 'Your status is currently:{}'.format(BP_STATUS)
+print BP_STATUS
