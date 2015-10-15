@@ -11,7 +11,7 @@ len(MYINPUT)
 if MYINPUT < MAX_LENGTH:
     LONGSTR = 'long'
 else:
-    print LONGSTR
+    LONGSTR
 
 
 OUTPUT = 'That certainly was a {} story!'.format(LONGSTR)
