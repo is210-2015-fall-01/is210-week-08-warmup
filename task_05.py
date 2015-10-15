@@ -9,17 +9,18 @@ BLOODP = int(BLOODP)
 if BLOODP <= 89:
     BP_STATUS = 'Low.'
 
-elif BLOODP <= 119:
+elif BLOODP >= 90 and BLOODP <= 119:
     BP_STATUS = 'Ideal.'
 
-elif BLOODP <= 139:
+elif BLOODP >= 120 and BLOODP <= 139:
     BP_STATUS = 'Warning!'
 
-elif BLOODP <= 159:
+elif BLOODP >= 140 and BLOODP <= 159:
     BP_STATUS = 'High!'
 
 else:
     BP_STATUS = 'Emergency!'
 
-BP_STATUS = 'Your status is currently {}'.format(BP_STATUS)
-print BP_STATUS
+BPRESULT = 'Your status is currently: {}'.format(BP_STATUS)
+
+print BPRESULT
