@@ -13,7 +13,7 @@ elif 120 <= BP_NUMBER <= 139:
     BP_STATUS = 'Warning'
 elif 140 <= BP_NUMBER <= 159:
     BP_STATUS = 'High'
-elif BP_NUMBER >= 160:
+else:
     BP_STATUS = 'Emergency'
 
-print 'Your status is currently: {}'.format(BP_STATUS)
+OUTPUT = 'Your status is currently: {}'.format(BP_STATUS)
