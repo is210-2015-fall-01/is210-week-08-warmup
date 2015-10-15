@@ -7,8 +7,8 @@ MYINPUT = raw_input('Tell me a story! ')
 MAX_LENGTH = 80
 LONGSTR = 'short'
 
-len(MYINPUT)
-if MYINPUT < MAX_LENGTH:
+RESULT = len(MYINPUT)
+if RESULT > MAX_LENGTH:
     LONGSTR = 'long'
 else:
     LONGSTR
