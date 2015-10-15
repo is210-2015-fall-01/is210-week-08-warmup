@@ -8,10 +8,10 @@ MAX_LENGTH = 80
 LONGSTR = 'short'
 
 RESULT = len(MYINPUT)
-if RESULT > MAX_LENGTH:
-    LONGSTR = 'long'
+if RESULT < MAX_LENGTH:
+    print LONGSTR
 else:
-    LONGSTR
+    LONGSTR = 'long'
 
 
 OUTPUT = 'That certainly was a {} story!'.format(LONGSTR)
