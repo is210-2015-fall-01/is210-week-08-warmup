@@ -8,7 +8,7 @@ MAX_LENGTH = 80
 LONGSTR = 'short'
 
 len(MYINPUT)
-if MYINPUT > MAX_LENGTH:
+if MYINPUT < MAX_LENGTH:
     LONGSTR = 'long'
 else:
     print LONGSTR
