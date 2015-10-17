@@ -22,5 +22,4 @@ else:
     BP_STATUS = 'Emergency'
 
 OUTPUT = 'Your status is currently: {}'.format(BP_STATUS)
-
 print OUTPUT
